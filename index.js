@@ -83,7 +83,7 @@ function getFile(url) {
     $.ajax({
         url: url,
         async: false,
-        method: 'post',
+        method: 'get',
         success: function (jsonData) {
             json = jsonData;
         }
