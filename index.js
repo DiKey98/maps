@@ -433,9 +433,9 @@ function createLayers() {
 }
 
 function getDataForLayers() {
-    json1 = getFile('http://localhost/maps/json1.json');
-    csv2 = getFile('http://localhost/maps/portals.csv');
-    json3 = getFile('http://localhost/maps/json2.json');
+    json1 = getFile('/maps/json1.json');
+    csv2 = getFile('/maps/portals.csv');
+    json3 = getFile('/maps/json2.json');
 }
 
 function getRegionBounds (layer) {
