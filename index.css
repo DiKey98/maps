@@ -1,0 +1,23 @@
+body {
+    overflow-x:hidden;
+}
+
+#mapid {
+    height: 70vh;
+}
+
+.rowtable {
+    cursor: pointer;
+}
+
+.rowtable:hover {
+    background: gray;
+}
+
+#filter {
+    margin-top: 10px;
+}
+
+#stoppresentation {
+    visibility: hidden;
+}

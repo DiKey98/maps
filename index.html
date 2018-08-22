@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="leaflat/leaflet.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <title>Title</title>
+</head>
+<body>
+
+<button id="presentation" type="button" class="btn btn-primary">Режим презентации</button>
+<button id="stoppresentation" type="button" class="btn btn-danger">Остановить</button>
+<div id="mapid"></div>
+<div>
+    <form>
+        <div class="form-group">
+            <input class="form-control" id="filter" aria-describedby="emailHelp" placeholder="Фильтр">
+        </div>
+    </form>
+</div>
+<div id="infotablecontainer">
+    <table class="table table-inverse">
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Название</th>
+            <th>Данные</th>
+        </tr>
+        </thead>
+        <tbody id="infotable">
+        </tbody>
+    </table>
+</div>
+
+</body>
+<script src="leaflat/leaflet.js"></script>
+<script src="leaflat/leaflet.geocsv.js"></script>
+<script src="jquery/jquery-3.2.1.js"></script>
+<script src="jquery/jquery.cookie.js"></script>
+<script src="index.js"></script>
+</html>
