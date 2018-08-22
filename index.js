@@ -516,7 +516,7 @@ function formPoint(coords, name, info, inverse = false) {
         coords = [coords[1], coords[0]];
     }
 
-    map.setView([coords[0], coords[1]]);
+    map.setView([coords[0], coords[1]], 100);
     center = [coords[0], coords[1]];
     map.setZoomAround([coords[0], coords[1]], 15, {animate: true, duration: 1});
     let popup = L.popup()
